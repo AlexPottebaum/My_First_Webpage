@@ -1,0 +1,39 @@
+body {
+
+}
+
+nav {
+    width: 100%;
+    display: block;
+    background-color: #dedede;
+
+}
+.nav-item {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #454545;
+    color: white;
+    font-weight: 700;
+    margin: 0 -1px;
+}
+.main-content {
+    overflow:auto;
+    width: 100%;
+}
+.left-content {
+    float: left;
+    width: 50%;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    padding: 8px; 
+}
+.pet-photo {
+    max-width: 100%;
+    padding: 10px
+}
+.right-content {
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+}
